@@ -246,7 +246,8 @@ app.delete("/api/students/:id", async (req, res) => {
 // Endpoint utama
 app.get("/", (req, res) => {
   res.json({
-    message: "Express.js running on Cloudflare Workers!",
+    message: "Express + D1 CRUD API",
+    week: 6,
   });
 });
 
