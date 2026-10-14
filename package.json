@@ -1,0 +1,23 @@
+{
+  "name": "aurora-express-worker",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "^1.0.0",
+    "@types/node": "^26.6.5",
+    "typescript": "^5.5.2",
+    "vitest": "~4.1.0",
+    "wrangler": "^4.150.0"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "express": "^5.3.0"
+  }
+}
